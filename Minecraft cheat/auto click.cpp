@@ -42,7 +42,7 @@ while (true = true)
 		}
 		else if (click == false)
 		{
-			mouse_event(MOUSEEVENTF_LEFTDOWN | MOUSEEVENTF_LEFTUP, 0, 0, 0, 0);
+			mouse_event(MOUSEEVENTF_RIGHTDOWN | MOUSEEVENTF_RIGHTTUP, 0, 0, 0, 0);
 		}
 		else if (GetAsyncKeyState(VK_UP) & 0) 
 		{
